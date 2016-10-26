@@ -1,19 +1,26 @@
 body {
   background-color: #F2F2F2;
   padding: 20px;
-  margin: 0 auto;
+  color: rgb(125, 125, 125);
+  background-image:url(../images/stadium2.jpeg);
+  background-repeat:no-repeat;
 }
 
 .card {
-  font-family: Crimson Text;
+  font-family: Open Sans;
   font-size: 16px;
   padding: 20px;
   width: 800px;
   text-align: center;
   border-radius: 4px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: white;
+  margin: 20px;
+}
+
+#container {
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -24,7 +31,6 @@ body {
 #photo_abdallah {
   width: 150px;
   height: 150px;
-  border-radius: 50%,
 }
 
 .photo_player {
@@ -34,8 +40,8 @@ body {
 
 h1 {
   color: rgb(221, 85, 85);
-  font-family: Noto Serif
-  font-size: 80px;
+  font-family: Montserrat;
+  font-size: 30px;
 }
 
 h2 {
@@ -46,15 +52,6 @@ h2 {
   color: rgb(221, 85, 85);
 }
 
-
-
-.social_media {
-  list-style-type: none;
-  text-align: center;
-  color: black;
-
-}
-
 a:hover {
   color: black;
   text-decoration: none;
@@ -63,11 +60,11 @@ a:hover {
 .icons img{
   width: 50px;
   height: 50px;
-  border-radius: 50%
 }
 
-.text-justify {
-  text-align: justify;
-  margin: 10px;
-  color: rgb(125, 125, 125);
+#banner li {
+  list-style-type: none;
+  display: inline;
+  margin: 5px;
+  padding: 5px;
 }
