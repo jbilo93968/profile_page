@@ -1,68 +1,50 @@
-#container{
+body {
+  background-color: #F2F2F2;
+}
+
+.card {
   font-family: Helvetica Neue;
   font-size: 14px;
+  padding: 30px;
   width: 800px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
   margin: 0 auto;
 }
 
 #banner{
-  text-align: center;
-  padding: 30px;
-  margin: 20px;
-  border-radius: 4px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: white;
-  color: black;
   text-decoration: none;
 }
 
-#component {
-  text-align: center;
-  padding: 30px;
-  margin: 20px;
-  border-radius: 4px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: white;
-}
-
-#footer{
-  text-align: center;
-  padding: 30px;
-  margin: 20px;
-  border-radius: 4px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: white;
-}
-
 #photo_abdallah {
-  width: 220px;
-  height: 220px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%,
 }
 
 .photo_player {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
 }
 
 h1 {
-  color: black;
+  color: rgb(221, 85, 85);
   font-family: Noto Serif
   font-size: 80px;
 }
 
-h4 {
-
+h2 {
+  color: rgb(125, 125, 125);
 }
 
-#navigation {
+.social_media {
+  list-style-type: none;
   text-align: center;
   color: black;
-  list-style-type: none;
+
 }
 
 a:hover {
@@ -79,4 +61,5 @@ a:hover {
 .text-justify {
   text-align: justify;
   margin: 10px;
+  color: rgb(125, 125, 125);
 }
