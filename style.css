@@ -46,7 +46,7 @@
 .photo_player {
   width: 200px;
   height: 200px;
-  border-radius: 50%,
+  border-radius: 50%;
 }
 
 h1 {
@@ -59,8 +59,10 @@ h4 {
 
 }
 
-#navigation > ul > li > a {
+#navigation {
   text-align: center;
+  color: black;
+  list-style-type: none;
 }
 
 a:hover {
@@ -72,4 +74,9 @@ a:hover {
   width: 50px;
   height: 50px;
   border-radius: 50%
+}
+
+.text-justify {
+  text-align: justify;
+  margin: 10px;
 }
