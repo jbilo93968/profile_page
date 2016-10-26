@@ -1,0 +1,17 @@
+#photo_abdallah {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%,
+}
+
+.photo_player {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%,
+}
+
+h1 {
+  color: black;
+  font-family: Noto Serif
+  font-size: 80px;
+}
