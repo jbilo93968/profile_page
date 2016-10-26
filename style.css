@@ -1,11 +1,13 @@
 body {
   background-color: #F2F2F2;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .card {
-  font-family: Helvetica Neue;
-  font-size: 14px;
-  padding: 30px;
+  font-family: Crimson Text;
+  font-size: 16px;
+  padding: 20px;
   width: 800px;
   text-align: center;
   border-radius: 4px;
@@ -39,6 +41,12 @@ h1 {
 h2 {
   color: rgb(125, 125, 125);
 }
+
+.footballer {
+  color: rgb(221, 85, 85);
+}
+
+
 
 .social_media {
   list-style-type: none;
